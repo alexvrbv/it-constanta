@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+    margin: 0 0 10px;
+}
+input[type=button] {
+    cursor: pointer;
+    padding: 5px;    
+}
+.content {
+    float: left;
+    position: relative;
+    width: 100%;
+    min-height: 50px;
+    overflow-y: auto;
+}
+.item-content {
+    min-height: 30px;
+    line-height: 30px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.button-open-close-panel {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.half {
+   width: 50%;
+}
+.item-content {
+    border-bottom: 1px solid #eeeeee;
+}
+.panel {
+    display: none;
+    width: 50%;
+    background-color: #eeeeee;
+    float: right;
+    overflow-y: auto;
+}
+#items {
+    position: relative;
+    float: left;
+    min-height: 20px;
+}
+.button-add-item {
+    position: absolute;
+    bottom: -29px;
+    left: 20px;
+}
+.item {
+    float: left;
+    margin: 20px 0 0 20px;
+    clear: both;
+}
+.item:last-child {
+    margin-bottom: 20px;
+}
+.txtArea {
+    vertical-align: top;
+}
+.button-remove-item {
+    margin-top: 15px;
+}
+.clr {
+	width: 100%;
+	clear: both;
+	height: 0;
+}
