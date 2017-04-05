@@ -60,9 +60,7 @@ $(function() {
     
      //Click on restore button
     $( "#wrapper" ).on( "click", ".restore", function( event ) {
-        console.log("restore");
         var itemClass = $(this).attr("class").replace('button-remove-item ', '').replace(' restore', '');
-        console.log(itemClass);
         var itemContainer = $("p."+itemClass);
         $(itemContainer).css('display', 'block');
         var itemTextarea = $("textarea."+itemClass);
